@@ -1147,8 +1147,8 @@ Denna transaktion låses upp vid block %llu, om ungefär %s dagar (förutsatt en
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="679"/>
-        <source>Current fee is %s monero per kB</source>
-        <translation>Aktuell avgift är %s monero per kB</translation>
+        <source>Current fee is %s incognito per kB</source>
+        <translation>Aktuell avgift är %s incognito per kB</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="695"/>
@@ -1559,8 +1559,8 @@ Denna transaktion låses upp vid block %llu, om ungefär %s dagar (förutsatt en
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1622"/>
-        <source>Donate &lt;amount&gt; to the development team (donate.getmonero.org).</source>
-        <translation>Donera &lt;belopp&gt; till utvecklingsteamet (donate.getmonero.org).</translation>
+        <source>Donate &lt;amount&gt; to the development team (donate.getincognito.org).</source>
+        <translation>Donera &lt;belopp&gt; till utvecklingsteamet (donate.getincognito.org).</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1625"/>
@@ -1702,8 +1702,8 @@ Om argumentet &quot;tag_description&quot; anges, så tilldelas taggen &lt;taggna
    Set the fee to default/unimportant/normal/elevated/priority.
  confirm-missing-payment-id &lt;1|0>
  ask-password &lt;1|0>
- unit &lt;monero|millinero|micronero|nanonero|piconero>
-   Set the default monero (sub-)unit.
+ unit &lt;incognito|millinero|micronero|nanonero|piconero>
+   Set the default incognito (sub-)unit.
  min-outputs-count [n]
    Try to keep at least that many outputs of value at least min-outputs-value.
  min-outputs-value [n]
@@ -1737,8 +1737,8 @@ Om argumentet &quot;tag_description&quot; anges, så tilldelas taggen &lt;taggna
    Sätt avgiften till default/unimportant/normal/elevated/priority.
  confirm-missing-payment-id &lt;1|0>
  ask-password &lt;1|0>
- unit &lt;monero|millinero|micronero|nanonero|piconero>
-   Ange standardvärde för moneroenhet.
+ unit &lt;incognito|millinero|micronero|nanonero|piconero>
+   Ange standardvärde för incognitoenhet.
  min-outputs-count [n]
    Försök att behålla åtminstone så många utgångar med åtminstone värdet min-outputs-value.
  min-outputs-value [n]
@@ -2205,7 +2205,7 @@ Annars bevisar du reserven för det minsta möjliga belopp över &lt;belopp&gt; 
 To start synchronizing with the daemon, use the &quot;refresh&quot; command.
 Use the &quot;help&quot; command to see the list of available commands.
 Use &quot;help &lt;command>&quot; to see a command&apos;s documentation.
-Always use the &quot;exit&quot; command when closing monero-wallet-cli to save 
+Always use the &quot;exit&quot; command when closing incognito-wallet-cli to save 
 your current session&apos;s state. Otherwise, you might need to synchronize 
 your wallet again (your wallet keys are NOT at risk in any case).
 </source>
@@ -2213,7 +2213,7 @@ your wallet again (your wallet keys are NOT at risk in any case).
 Använd kommandot &quot;refresh&quot; för att starta synkronisering med daemonen.
 Använd kommandot &quot;help&quot; för att visa en lista över tillgängliga kommandon.
 Använd &quot;help &lt;kommando>&quot; för att visa dokumentation för kommandot.
-Använd alltid kommandot &quot;exit&quot; när du stänger monero-wallet-cli så att ditt aktuella sessionstillstånd sparas. Annars kan du bli tvungen att synkronisera
+Använd alltid kommandot &quot;exit&quot; när du stänger incognito-wallet-cli så att ditt aktuella sessionstillstånd sparas. Annars kan du bli tvungen att synkronisera
 din plånbok igen (din plånboks nycklar är dock INTE hotade i vilket fall som helst).
 </translation>
     </message>
@@ -2609,8 +2609,8 @@ Varning: Några ingångsnycklar som spenderas kommer från </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1923"/>
-        <source>monero, millinero, micronero, nanonero, piconero</source>
-        <translation>monero, millinero, micronero, nanonero, piconero</translation>
+        <source>incognito, millinero, micronero, nanonero, piconero</source>
+        <translation>incognito, millinero, micronero, nanonero, piconero</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1975"/>
@@ -3759,8 +3759,8 @@ Utgångar per *: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="129"/>
-        <source>The newly created transaction will not be relayed to the monero network</source>
-        <translation>Den nyss skapade transaktionen kommer inte att skickas vidare till monero-nätverket</translation>
+        <source>The newly created transaction will not be relayed to the incognito network</source>
+        <translation>Den nyss skapade transaktionen kommer inte att skickas vidare till incognito-nätverket</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="171"/>
@@ -3779,7 +3779,7 @@ Utgångar per *: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="6787"/>
-        <source>This is the command line monero wallet. It needs to connect to a monero
+        <source>This is the command line incognito wallet. It needs to connect to a incognito
 daemon to work correctly.</source>
         <translation>Detta är kommandoradsplånboken för Monero. Den måste ansluta till en Monero-
 daemon för att fungera korrekt.</translation>
@@ -4023,9 +4023,9 @@ daemon för att fungera korrekt.</translation>
     </message>
     <message>
         <location filename="../src/wallet/wallet_rpc_server.cpp" line="2870"/>
-        <source>This is the RPC monero wallet. It needs to connect to a monero
+        <source>This is the RPC incognito wallet. It needs to connect to a incognito
 daemon to work correctly.</source>
-        <translation>Detta är RPC-plånboken för monero. Den måste ansluta till en Monero-
+        <translation>Detta är RPC-plånboken för incognito. Den måste ansluta till en Monero-
 daemon för att fungera korrekt.</translation>
     </message>
     <message>
@@ -4132,7 +4132,7 @@ daemon för att fungera korrekt.</translation>
     </message>
     <message>
         <location filename="../src/wallet/wallet_args.cpp" line="138"/>
-        <source>This is the command line monero wallet. It needs to connect to a monero
+        <source>This is the command line incognito wallet. It needs to connect to a incognito
 daemon to work correctly.</source>
         <translation>Detta är kommandoradsplånboken för Monero. Den måste ansluta till en Monero-
 daemon för att fungera korrekt.</translation>

@@ -39,13 +39,13 @@ if (NOT (MINGW OR APPLE OR FREEBSD OR OPENBSD OR DRAGONFLY))
   add_compile_options("${WARNINGS_AS_ERRORS_FLAG}") # applies only to targets that follow
 endif()
 
-function (monero_private_headers group)
+function (incognito_private_headers group)
   source_group("${group}\\Private"
     FILES
       ${ARGN})
 endfunction ()
 
-function (monero_install_headers subdir)
+function (incognito_install_headers subdir)
   install(
     FILES       ${ARGN}
     DESTINATION "include/${subdir}"
@@ -63,7 +63,7 @@ function (enable_stack_trace target)
   endif()
 endfunction()
 
-function (monero_add_executable name)
+function (incognito_add_executable name)
   source_group("${name}"
     FILES
       ${ARGN})
@@ -82,11 +82,11 @@ function (monero_add_executable name)
   enable_stack_trace("${name}")
 endfunction ()
 
-function (monero_add_library name)
-    monero_add_library_with_deps(NAME "${name}" SOURCES ${ARGN})
+function (incognito_add_library name)
+    incognito_add_library_with_deps(NAME "${name}" SOURCES ${ARGN})
 endfunction()
 
-function (monero_add_library_with_deps)
+function (incognito_add_library_with_deps)
   cmake_parse_arguments(MONERO_ADD_LIBRARY "" "NAME" "DEPENDS;SOURCES" ${ARGN})
   source_group("${MONERO_ADD_LIBRARY_NAME}" FILES ${MONERO_ADD_LIBRARY_SOURCES})
 
@@ -106,7 +106,7 @@ function (monero_add_library_with_deps)
 endfunction ()
 
 include(Version)
-monero_add_library(version SOURCES ${CMAKE_BINARY_DIR}/version.cpp DEPENDS genversion)
+incognito_add_library(version SOURCES ${CMAKE_BINARY_DIR}/version.cpp DEPENDS genversion)
 
 add_subdirectory(common)
 add_subdirectory(crypto)

@@ -61,7 +61,7 @@ extern "C" {
 #define DP(x)
 #endif
 
-//atomic units of moneros
+//atomic units of incognitos
 #define ATOMS 64
 
 //for printing large ints
@@ -130,7 +130,7 @@ namespace rct {
         BEGIN_SERIALIZE_OBJECT()
           FIELD(mask)
           FIELD(amount)
-          // FIELD(senderPk) // not serialized, as we do not use it in monero currently
+          // FIELD(senderPk) // not serialized, as we do not use it in incognito currently
         END_SERIALIZE()
     };
 

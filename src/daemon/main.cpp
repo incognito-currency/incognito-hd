@@ -181,7 +181,7 @@ int main(int argc, char const * argv[])
     }
 
     // data_dir
-    //   default: e.g. ~/.bitmonero/ or ~/.bitmonero/testnet
+    //   default: e.g. ~/.incognito/ or ~/.incognito/testnet
     //   if data-dir argument given:
     //     absolute path
     //     relative path: relative to cwd

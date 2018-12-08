@@ -72,7 +72,7 @@ namespace {
     std::string get_default_ringdb_path(cryptonote::network_type nettype)
     {
       boost::filesystem::path dir = tools::get_default_data_dir();
-      // remove .bitmonero, replace with .shared-ringdb
+      // remove .incognito, replace with .shared-ringdb
       dir = dir.remove_filename();
       dir /= ".shared-ringdb";
       if (nettype == cryptonote::TESTNET)
@@ -2298,4 +2298,4 @@ bool WalletImpl::isKeysFileLocked()
 }
 } // namespace
 
-namespace Bitmonero = Monero;
+namespace Bitincognito = Monero;

@@ -5,20 +5,20 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Development resources
 
-- Web: [getmonero.org](https://getmonero.org)
-- Forum: [forum.getmonero.org](https://forum.getmonero.org)
-- Mail: [dev@getmonero.org](mailto:dev@getmonero.org)
-- GitHub: [https://github.com/monero-project/monero](https://github.com/monero-project/monero)
-- IRC: [#monero-dev on Freenode](https://webchat.freenode.net/?randomnick=1&channels=%23monero-dev&prompt=1&uio=d4)
+- Web: [getincognito.org](https://getincognito.org)
+- Forum: [forum.getincognito.org](https://forum.getincognito.org)
+- Mail: [dev@getincognito.org](mailto:dev@getincognito.org)
+- GitHub: [https://github.com/incognito-currency/incognito](https://github.com/incognito-currency/incognito)
+- IRC: [#incognito-dev on Freenode](https://webchat.freenode.net/?randomnick=1&channels=%23incognito-dev&prompt=1&uio=d4)
 
 ## Vulnerability response
 
-- Our [Vulnerability Response Process](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
-- We are also available via [HackerOne](https://hackerone.com/monero)
+- Our [Vulnerability Response Process](https://github.com/incognito-currency/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
+- We are also available via [HackerOne](https://hackerone.com/incognito)
 
 ## Announcements
 
-- You can subscribe to an [announcement listserv](https://lists.getmonero.org) to get critical announcements from the Monero core team. The announcement list can be very helpful for knowing when software updates are needed.
+- You can subscribe to an [announcement listserv](https://lists.getincognito.org) to get critical announcements from the Monero core team. The announcement list can be very helpful for knowing when software updates are needed.
 
 ## Build
 
@@ -28,24 +28,24 @@ These builds are of the master branch, which is used for active development and 
 
 | Operating System      | Processor | Status |
 | --------------------- | -------- |--------|
-| Ubuntu 16.04          |  i686    | [![Ubuntu 16.04 i686](https://build.getmonero.org/png?builder=monero-static-ubuntu-i686)](https://build.getmonero.org/builders/monero-static-ubuntu-i686)
-| Ubuntu 16.04          |  amd64   | [![Ubuntu 16.04 amd64](https://build.getmonero.org/png?builder=monero-static-ubuntu-amd64)](https://build.getmonero.org/builders/monero-static-ubuntu-amd64)
-| Ubuntu 16.04          |  armv7   | [![Ubuntu 16.04 armv7](https://build.getmonero.org/png?builder=monero-static-ubuntu-arm7)](https://build.getmonero.org/builders/monero-static-ubuntu-arm7)
-| Debian Stable         |  armv8   | [![Debian armv8](https://build.getmonero.org/png?builder=monero-static-debian-armv8)](https://build.getmonero.org/builders/monero-static-debian-armv8)
-| OSX 10.10             |  amd64   | [![OSX 10.10 amd64](https://build.getmonero.org/png?builder=monero-static-osx-10.10)](https://build.getmonero.org/builders/monero-static-osx-10.10)
-| OSX 10.11             |  amd64   | [![OSX 10.11 amd64](https://build.getmonero.org/png?builder=monero-static-osx-10.11)](https://build.getmonero.org/builders/monero-static-osx-10.11)
-| OSX 10.12             |  amd64   | [![OSX 10.12 amd64](https://build.getmonero.org/png?builder=monero-static-osx-10.12)](https://build.getmonero.org/builders/monero-static-osx-10.12)
-| FreeBSD 11            |  amd64   | [![FreeBSD 11 amd64](https://build.getmonero.org/png?builder=monero-static-freebsd64)](https://build.getmonero.org/builders/monero-static-freebsd64)
-| DragonFly BSD 4.6     |  amd64   | [![DragonFly BSD amd64](https://build.getmonero.org/png?builder=monero-static-dragonflybsd-amd64)](https://build.getmonero.org/builders/monero-static-dragonflybsd-amd64)
-| Windows (MSYS2/MinGW) |  i686    | [![Windows (MSYS2/MinGW) i686](https://build.getmonero.org/png?builder=monero-static-win32)](https://build.getmonero.org/builders/monero-static-win32)
-| Windows (MSYS2/MinGW) |  amd64   | [![Windows (MSYS2/MinGW) amd64](https://build.getmonero.org/png?builder=monero-static-win64)](https://build.getmonero.org/builders/monero-static-win64)
+| Ubuntu 16.04          |  i686    | [![Ubuntu 16.04 i686](https://build.getincognito.org/png?builder=incognito-static-ubuntu-i686)](https://build.getincognito.org/builders/incognito-static-ubuntu-i686)
+| Ubuntu 16.04          |  amd64   | [![Ubuntu 16.04 amd64](https://build.getincognito.org/png?builder=incognito-static-ubuntu-amd64)](https://build.getincognito.org/builders/incognito-static-ubuntu-amd64)
+| Ubuntu 16.04          |  armv7   | [![Ubuntu 16.04 armv7](https://build.getincognito.org/png?builder=incognito-static-ubuntu-arm7)](https://build.getincognito.org/builders/incognito-static-ubuntu-arm7)
+| Debian Stable         |  armv8   | [![Debian armv8](https://build.getincognito.org/png?builder=incognito-static-debian-armv8)](https://build.getincognito.org/builders/incognito-static-debian-armv8)
+| OSX 10.10             |  amd64   | [![OSX 10.10 amd64](https://build.getincognito.org/png?builder=incognito-static-osx-10.10)](https://build.getincognito.org/builders/incognito-static-osx-10.10)
+| OSX 10.11             |  amd64   | [![OSX 10.11 amd64](https://build.getincognito.org/png?builder=incognito-static-osx-10.11)](https://build.getincognito.org/builders/incognito-static-osx-10.11)
+| OSX 10.12             |  amd64   | [![OSX 10.12 amd64](https://build.getincognito.org/png?builder=incognito-static-osx-10.12)](https://build.getincognito.org/builders/incognito-static-osx-10.12)
+| FreeBSD 11            |  amd64   | [![FreeBSD 11 amd64](https://build.getincognito.org/png?builder=incognito-static-freebsd64)](https://build.getincognito.org/builders/incognito-static-freebsd64)
+| DragonFly BSD 4.6     |  amd64   | [![DragonFly BSD amd64](https://build.getincognito.org/png?builder=incognito-static-dragonflybsd-amd64)](https://build.getincognito.org/builders/incognito-static-dragonflybsd-amd64)
+| Windows (MSYS2/MinGW) |  i686    | [![Windows (MSYS2/MinGW) i686](https://build.getincognito.org/png?builder=incognito-static-win32)](https://build.getincognito.org/builders/incognito-static-win32)
+| Windows (MSYS2/MinGW) |  amd64   | [![Windows (MSYS2/MinGW) amd64](https://build.getincognito.org/png?builder=incognito-static-win64)](https://build.getincognito.org/builders/incognito-static-win64)
 
 ## Coverage
 
 | Type      | Status |
 |-----------|--------|
 | Coverity  | [![Coverity Status](https://scan.coverity.com/projects/9657/badge.svg)](https://scan.coverity.com/projects/9657/)
-| Coveralls | [![Coveralls Status](https://coveralls.io/repos/github/monero-project/monero/badge.svg?branch=master)](https://coveralls.io/github/monero-project/monero?branch=master)
+| Coveralls | [![Coveralls Status](https://coveralls.io/repos/github/incognito-currency/incognito/badge.svg?branch=master)](https://coveralls.io/github/incognito-currency/incognito?branch=master)
 | License   | [![License](https://img.shields.io/badge/license-BSD3-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Introduction
@@ -68,7 +68,7 @@ As with many development projects, the repository on Github is considered to be 
 
 ## Supporting the project
 
-Monero is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Monero and Bitcoin donations can be made to **donate.getmonero.org** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively you can send XMR to the Monero donation address via the `donate` command (type `help` in the command-line wallet for details).
+Monero is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Monero and Bitcoin donations can be made to **donate.getincognito.org** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively you can send XMR to the Monero donation address via the `donate` command (type `help` in the command-line wallet for details).
 
 The Monero donation address is: `44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A` (viewkey: `f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501`)
 
@@ -76,13 +76,13 @@ The Bitcoin donation address is: `1KTexdemPdxSBcG55heUuTjDRYqbC5ZL8H`
 
 Core development funding and/or some supporting services are also graciously provided by sponsors:
 
-[<img width="80" src="https://static.getmonero.org/images/sponsors/mymonero.png"/>](https://mymonero.com)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/kitware.png?1"/>](https://kitware.com)
-[<img width="100" src="https://static.getmonero.org/images/sponsors/dome9.png"/>](https://dome9.com)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/araxis.png"/>](https://araxis.com)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/jetbrains.png"/>](https://www.jetbrains.com/)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/navicat.png"/>](https://www.navicat.com/)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/symas.png"/>](https://www.symas.com/)
+[<img width="80" src="https://static.getincognito.org/images/sponsors/myincognito.png"/>](https://myincognito.com)
+[<img width="150" src="https://static.getincognito.org/images/sponsors/kitware.png?1"/>](https://kitware.com)
+[<img width="100" src="https://static.getincognito.org/images/sponsors/dome9.png"/>](https://dome9.com)
+[<img width="150" src="https://static.getincognito.org/images/sponsors/araxis.png"/>](https://araxis.com)
+[<img width="150" src="https://static.getincognito.org/images/sponsors/jetbrains.png"/>](https://www.jetbrains.com/)
+[<img width="150" src="https://static.getincognito.org/images/sponsors/navicat.png"/>](https://www.navicat.com/)
+[<img width="150" src="https://static.getincognito.org/images/sponsors/symas.png"/>](https://www.symas.com/)
 
 There are also several mining pools that kindly donate a portion of their fees, [a list of them can be found on our Bitcointalk post](https://bitcointalk.org/index.php?topic=583449.0).
 
@@ -162,11 +162,11 @@ Debian / Ubuntu one liner for all dependencies
 
 Clone recursively to pull-in needed submodule(s):
 
-`$ git clone --recursive https://github.com/monero-project/monero`
+`$ git clone --recursive https://github.com/incognito-currency/incognito`
 
 If you already have a repo cloned, initialize and update:
 
-`$ cd monero && git submodule init && git submodule update`
+`$ cd incognito && git submodule init && git submodule update`
 
 ### Build instructions
 
@@ -178,7 +178,7 @@ invokes cmake commands as needed.
 * Install the dependencies
 * Change to the root of the source code directory, change to the most recent release branch, and build:
 
-        cd monero
+        cd incognito
         git checkout v0.13.0.4
         make
 
@@ -198,9 +198,9 @@ invokes cmake commands as needed.
 
 * The resulting executables can be found in `build/release/bin`
 
-* Add `PATH="$PATH:$HOME/monero/build/release/bin"` to `.profile`
+* Add `PATH="$PATH:$HOME/incognito/build/release/bin"` to `.profile`
 
-* Run Monero with `monerod --detach`
+* Run Monero with `incognitod --detach`
 
 * **Optional**: build and run the test suite to verify the binaries:
 
@@ -237,10 +237,10 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 	CONF_SWAPSIZE=1024  
 	sudo /etc/init.d/dphys-swapfile start  
 ```
-* Clone monero and checkout most recent release version:
+* Clone incognito and checkout most recent release version:
 ```
-        git clone https://github.com/monero-project/monero.git
-	cd monero
+        git clone https://github.com/incognito-currency/incognito.git
+	cd incognito
 	git checkout tags/v0.13.0.4
 ```
 * Build:
@@ -251,9 +251,9 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 
 * The resulting executables can be found in `build/release/bin`
 
-* Add `PATH="$PATH:$HOME/monero/build/release/bin"` to `.profile`
+* Add `PATH="$PATH:$HOME/incognito/build/release/bin"` to `.profile`
 
-* Run Monero with `monerod --detach`
+* Run Monero with `incognitod --detach`
 
 * You may wish to reduce the size of the swap file after the build has finished, and delete the boost directory from your home directory
 
@@ -287,7 +287,7 @@ If you are using the older Raspbian Jessie image, compiling Monero is a bit more
 ```
 * Wait ~4 hours
 
-* From here, follow the [general Raspberry Pi instructions](#on-the-raspberry-pi) from the "Clone monero and checkout most recent release version" step.
+* From here, follow the [general Raspberry Pi instructions](#on-the-raspberry-pi) from the "Clone incognito and checkout most recent release version" step.
 
 #### On Windows:
 
@@ -330,15 +330,15 @@ application.
 
 * To git clone, run:
 
-        git clone --recursive https://github.com/monero-project/monero.git
+        git clone --recursive https://github.com/incognito-currency/incognito.git
 
 **Building**
 
 * Change to the cloned directory, run:
 	
-        cd monero
+        cd incognito
 
-* If you would like a specific [version/tag](https://github.com/monero-project/monero/tags), do a git checkout for that version. eg. 'v0.13.0.0'. If you dont care about the version and just want binaries from master, skip this step:
+* If you would like a specific [version/tag](https://github.com/incognito-currency/incognito/tags), do a git checkout for that version. eg. 'v0.13.0.0'. If you dont care about the version and just want binaries from master, skip this step:
 	
         git checkout v0.13.0.4
 
@@ -364,7 +364,7 @@ application.
 
 ### On FreeBSD:
 
-The project can be built from scratch by following instructions for Linux above. If you are running monero in a jail you need to add the flag: `allow.sysvipc=1` to your jail configuration, otherwise lmdb will throw the error message: `Failed to open lmdb environment: Function not implemented`.
+The project can be built from scratch by following instructions for Linux above. If you are running incognito in a jail you need to add the flag: `allow.sysvipc=1` to your jail configuration, otherwise lmdb will throw the error message: `Failed to open lmdb environment: Function not implemented`.
 
 We expect to add Monero into the ports tree in the near future, which will aid in managing installations using ports or packages.
 
@@ -456,7 +456,7 @@ cmake ..
 doas make install
 ```
 
-Build monero: `env DEVELOPER_LOCAL_TOOLS=1 BOOST_ROOT=/usr/local make release-static`
+Build incognito: `env DEVELOPER_LOCAL_TOOLS=1 BOOST_ROOT=/usr/local make release-static`
 
 ### On Solaris:
 
@@ -472,13 +472,13 @@ Then you can run make as usual.
 ### On Linux for Android (using docker):
 
         # Build image (for ARM 32-bit)
-        docker build -f utils/build_scripts/android32.Dockerfile -t monero-android .
+        docker build -f utils/build_scripts/android32.Dockerfile -t incognito-android .
         # Build image (for ARM 64-bit)
-        docker build -f utils/build_scripts/android64.Dockerfile -t monero-android .
+        docker build -f utils/build_scripts/android64.Dockerfile -t incognito-android .
         # Create container
-        docker create -it --name monero-android monero-android bash
+        docker create -it --name incognito-android incognito-android bash
         # Get binaries
-        docker cp monero-android:/src/build/release/bin .
+        docker cp incognito-android:/src/build/release/bin .
 
 ### Building portable statically linked binaries (Cross Compiling)
 
@@ -500,35 +500,35 @@ Packages are available for
 
 * Ubuntu and [snap supported](https://snapcraft.io/docs/core/install) systems, via a community contributed build.
 
-	snap install monero --beta
+	snap install incognito --beta
 
 Installing a snap is very quick. Snaps are secure. They are isolated with all of their dependencies. Snaps also auto update when a new version is released.
 
 * Arch Linux (via [AUR](https://aur.archlinux.org/)):
-  - Stable release: [`monero`](https://aur.archlinux.org/packages/monero)
-  - Bleeding edge: [`monero-git`](https://aur.archlinux.org/packages/monero-git)
+  - Stable release: [`incognito`](https://aur.archlinux.org/packages/incognito)
+  - Bleeding edge: [`incognito-git`](https://aur.archlinux.org/packages/incognito-git)
 
 * Void Linux:
 
-        xbps-install -S monero
+        xbps-install -S incognito
 
 * GuixSD
 
-        guix package -i monero
+        guix package -i incognito
 
 * Docker
 
         # Build using all available cores
-        docker build -t monero .
+        docker build -t incognito .
 
         # or build using a specific number of cores (reduce RAM requirement)
-        docker build --build-arg NPROC=1 -t monero .
+        docker build --build-arg NPROC=1 -t incognito .
 
         # either run in foreground
-        docker run -it -v /monero/chain:/root/.bitmonero -v /monero/wallet:/wallet -p 18080:18080 monero
+        docker run -it -v /incognito/chain:/root/.incognito -v /incognito/wallet:/wallet -p 18080:18080 incognito
 
         # or in background
-        docker run -it -d -v /monero/chain:/root/.bitmonero -v /monero/wallet:/wallet -p 18080:18080 monero
+        docker run -it -d -v /incognito/chain:/root/.incognito -v /incognito/wallet:/wallet -p 18080:18080 incognito
 
 * The build needs 3 GB space.
 * Wait one  hour or more
@@ -549,17 +549,17 @@ Then go back to the source dir and type for example for windows 64bit:
 
 * ```cmake -DCMAKE_TOOLCHAIN_FILE=`pwd`/contrib/depends/x86_64-w64-mingw32```
 
-Using depends might also be easier to compile monero on windows than using msys. Activate windows subsystem for linux (for example ubuntu) install the apt build-essentials and follow the depends steps as depicted above.
+Using depends might also be easier to compile incognito on windows than using msys. Activate windows subsystem for linux (for example ubuntu) install the apt build-essentials and follow the depends steps as depicted above.
 
-## Running monerod
+## Running incognitod
 
 The build places the binary in `bin/` sub-directory within the build directory
 from which cmake was invoked (repository root by default). To run in
 foreground:
 
-    ./bin/monerod
+    ./bin/incognitod
 
-To list all available options, run `./bin/monerod --help`.  Options can be
+To list all available options, run `./bin/incognitod --help`.  Options can be
 specified either on the command line or in a configuration file passed by the
 `--config-file` argument.  To specify an option in the configuration file, add
 a line with the syntax `argumentname=value`, where `argumentname` is the name
@@ -567,17 +567,17 @@ of the argument without the leading dashes, for example `log-level=1`.
 
 To run in background:
 
-    ./bin/monerod --log-file monerod.log --detach
+    ./bin/incognitod --log-file incognitod.log --detach
 
 To run as a systemd service, copy
-[monerod.service](utils/systemd/monerod.service) to `/etc/systemd/system/` and
-[monerod.conf](utils/conf/monerod.conf) to `/etc/`. The [example
-service](utils/systemd/monerod.service) assumes that the user `monero` exists
+[incognitod.service](utils/systemd/incognitod.service) to `/etc/systemd/system/` and
+[incognitod.conf](utils/conf/incognitod.conf) to `/etc/`. The [example
+service](utils/systemd/incognitod.service) assumes that the user `incognito` exists
 and its home is the data directory specified in the [example
-config](utils/conf/monerod.conf).
+config](utils/conf/incognitod.conf).
 
 If you're on Mac, you may need to add the `--max-concurrency 1` option to
-monero-wallet-cli, and possibly monerod, if you get crashes refreshing.
+incognito-wallet-cli, and possibly incognitod, if you get crashes refreshing.
 
 ## Internationalization
 
@@ -589,27 +589,27 @@ While Monero isn't made to integrate with Tor, it can be used wrapped with torso
 setting the following configuration parameters and environment variables:
 
 * `--p2p-bind-ip 127.0.0.1` on the command line or `p2p-bind-ip=127.0.0.1` in
-  monerod.conf to disable listening for connections on external interfaces.
-* `--no-igd` on the command line or `no-igd=1` in monerod.conf to disable IGD
+  incognitod.conf to disable listening for connections on external interfaces.
+* `--no-igd` on the command line or `no-igd=1` in incognitod.conf to disable IGD
   (UPnP port forwarding negotiation), which is pointless with Tor.
 * `DNS_PUBLIC=tcp` or `DNS_PUBLIC=tcp://x.x.x.x` where x.x.x.x is the IP of the
   desired DNS server, for DNS requests to go over TCP, so that they are routed
-  through Tor. When IP is not specified, monerod uses the default list of
+  through Tor. When IP is not specified, incognitod uses the default list of
   servers defined in [src/common/dns_utils.cpp](src/common/dns_utils.cpp).
-* `TORSOCKS_ALLOW_INBOUND=1` to tell torsocks to allow monerod to bind to interfaces
+* `TORSOCKS_ALLOW_INBOUND=1` to tell torsocks to allow incognitod to bind to interfaces
    to accept connections from the wallet. On some Linux systems, torsocks
    allows binding to localhost by default, so setting this variable is only
    necessary to allow binding to local LAN/VPN interfaces to allow wallets to
    connect from remote hosts. On other systems, it may be needed for local wallets
    as well.
 * Do NOT pass `--detach` when running through torsocks with systemd, (see
-  [utils/systemd/monerod.service](utils/systemd/monerod.service) for details).
+  [utils/systemd/incognitod.service](utils/systemd/incognitod.service) for details).
 * If you use the wallet with a Tor daemon via the loopback IP (eg, 127.0.0.1:9050),
   then use `--untrusted-daemon` unless it is your own hidden service.
 
-Example command line to start monerod through Tor:
+Example command line to start incognitod through Tor:
 
-    DNS_PUBLIC=tcp torsocks monerod --p2p-bind-ip 127.0.0.1 --no-igd
+    DNS_PUBLIC=tcp torsocks incognitod --p2p-bind-ip 127.0.0.1 --no-igd
 
 ### Using Tor on Tails
 
@@ -618,7 +618,7 @@ to add a rule to allow this connection too, in addition to telling torsocks to
 allow inbound connections. Full example:
 
     sudo iptables -I OUTPUT 2 -p tcp -d 127.0.0.1 -m tcp --dport 18081 -j ACCEPT
-    DNS_PUBLIC=tcp torsocks ./monerod --p2p-bind-ip 127.0.0.1 --no-igd --rpc-bind-ip 127.0.0.1 \
+    DNS_PUBLIC=tcp torsocks ./incognitod --p2p-bind-ip 127.0.0.1 --no-igd --rpc-bind-ip 127.0.0.1 \
         --data-dir /home/amnesia/Persistent/your/directory/to/the/blockchain
 
 ## Debugging
@@ -636,7 +636,7 @@ Run the build.
 Once it stalls, enter the following command:
 
 ```
-gdb /path/to/monerod `pidof monerod` 
+gdb /path/to/incognitod `pidof incognitod` 
 ```
 
 Type `thread apply all bt` within gdb in order to obtain the stack trace
@@ -649,21 +649,21 @@ Enter `echo core | sudo tee /proc/sys/kernel/core_pattern` to stop cores from be
 
 Run the build.
 
-When it terminates with an output along the lines of "Segmentation fault (core dumped)", there should be a core dump file in the same directory as monerod. It may be named just `core`, or `core.xxxx` with numbers appended.
+When it terminates with an output along the lines of "Segmentation fault (core dumped)", there should be a core dump file in the same directory as incognitod. It may be named just `core`, or `core.xxxx` with numbers appended.
 
 You can now analyse this core dump with `gdb` as follows:
 
-`gdb /path/to/monerod /path/to/dumpfile`
+`gdb /path/to/incognitod /path/to/dumpfile`
 
 Print the stack trace with `bt`
 
-* To run monero within gdb:
+* To run incognito within gdb:
 
-Type `gdb /path/to/monerod`
+Type `gdb /path/to/incognitod`
 
 Pass command-line options with `--args` followed by the relevant arguments
 
-Type `run` to run monerod
+Type `run` to run incognitod
 
 ### Analysing memory corruption
 
@@ -675,11 +675,11 @@ Configure Monero with the -D SANITIZE=ON cmake flag, eg:
 
     cd build/debug && cmake -D SANITIZE=ON -D CMAKE_BUILD_TYPE=Debug ../..
 
-You can then run the monero tools normally. Performance will typically halve.
+You can then run the incognito tools normally. Performance will typically halve.
 
 * valgrind
 
-Install valgrind and run as `valgrind /path/to/monerod`. It will be very slow.
+Install valgrind and run as `valgrind /path/to/incognitod`. It will be very slow.
 
 ### LMDB
 
@@ -687,7 +687,7 @@ Instructions for debugging suspected blockchain corruption as per @HYC
 
 There is an `mdb_stat` command in the LMDB source that can print statistics about the database but it's not routinely built. This can be built with the following command:
 
-`cd ~/monero/external/db_drivers/liblmdb && make`
+`cd ~/incognito/external/db_drivers/liblmdb && make`
 
 The output of `mdb_stat -ea <path to blockchain dir>` will indicate inconsistencies in the blocks, block_heights and block_info table.
 

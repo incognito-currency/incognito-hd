@@ -76,9 +76,9 @@ set(daemon_private_headers
   ../p2p/p2p_protocol_defs.h
   ../p2p/stdafx.h)
 
-monero_private_headers(daemon
+incognito_private_headers(daemon
   ${daemon_private_headers})
-monero_add_executable(daemon
+incognito_add_executable(daemon
   ${daemon_sources}
   ${daemon_headers}
   ${daemon_private_headers}
@@ -109,5 +109,5 @@ target_link_libraries(daemon
     ${EXTRA_LIBRARIES})
 set_property(TARGET daemon
   PROPERTY
-    OUTPUT_NAME "monerod")
+    OUTPUT_NAME "incognitod")
 install(TARGETS daemon DESTINATION bin)

@@ -254,7 +254,7 @@ private:
 
 } // namespace
 
-namespace Bitmonero = Monero;
+namespace Bitincognito = Monero;
 
 #endif
 
