@@ -44,7 +44,7 @@ namespace tools
 
     MDEBUG("Checking updates for " << buildtag << " " << software);
 
-    // All four MoneroPulse domains have DNSSEC on and valid
+    // All four IncognitoPulse domains have DNSSEC on and valid
     static const std::vector<std::string> dns_urls = {
         "updates.incognitopulse.org",
         "updates.incognitopulse.net",

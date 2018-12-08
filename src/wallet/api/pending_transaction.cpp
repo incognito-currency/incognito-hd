@@ -43,7 +43,7 @@
 
 using namespace std;
 
-namespace Monero {
+namespace Incognito {
 
 PendingTransaction::~PendingTransaction() {}
 
@@ -247,5 +247,5 @@ std::vector<std::string> PendingTransactionImpl::signersKeys() const {
 
 }
 
-namespace Bitincognito = Monero;
+namespace Bitincognito = Incognito;
 

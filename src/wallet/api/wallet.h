@@ -40,7 +40,7 @@
 #include <boost/thread/condition_variable.hpp>
 
 
-namespace Monero {
+namespace Incognito {
 class TransactionHistoryImpl;
 class PendingTransactionImpl;
 class UnsignedTransactionImpl;
@@ -254,7 +254,7 @@ private:
 
 } // namespace
 
-namespace Bitincognito = Monero;
+namespace Bitincognito = Incognito;
 
 #endif
 

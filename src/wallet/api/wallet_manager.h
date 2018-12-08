@@ -33,7 +33,7 @@
 #include "net/http_client.h"
 #include <string>
 
-namespace Monero {
+namespace Incognito {
 
 class WalletManagerImpl : public WalletManager
 {
@@ -101,4 +101,4 @@ private:
 
 } // namespace
 
-namespace Bitincognito = Monero;
+namespace Bitincognito = Incognito;

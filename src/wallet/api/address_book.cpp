@@ -37,7 +37,7 @@
 
 #include <vector>
 
-namespace Monero {
+namespace Incognito {
   
 AddressBook::~AddressBook() {}
   
@@ -178,4 +178,4 @@ AddressBookImpl::~AddressBookImpl()
 
 } // namespace
 
-namespace Bitincognito = Monero;
+namespace Bitincognito = Incognito;

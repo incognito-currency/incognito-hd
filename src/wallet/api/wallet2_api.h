@@ -39,7 +39,7 @@
 #include <iostream>
 
 //  Public interface for libwallet library
-namespace Monero {
+namespace Incognito {
 
 enum NetworkType : uint8_t {
     MAINNET = 0,
@@ -1197,5 +1197,5 @@ struct WalletManagerFactory
 
 }
 
-namespace Bitincognito = Monero;
+namespace Bitincognito = Incognito;
 

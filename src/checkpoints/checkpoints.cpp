@@ -253,7 +253,7 @@ namespace cryptonote
   {
     std::vector<std::string> records;
 
-    // All four MoneroPulse domains have DNSSEC on and valid
+    // All four IncognitoPulse domains have DNSSEC on and valid
     static const std::vector<std::string> dns_urls = { "checkpoints.incognitopulse.se"
 						     , "checkpoints.incognitopulse.org"
 						     , "checkpoints.incognitopulse.net"

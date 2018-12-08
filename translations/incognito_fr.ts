@@ -2,7 +2,7 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="fr_FR">
 <context>
-    <name>Monero::AddressBookImpl</name>
+    <name>Incognito::AddressBookImpl</name>
     <message>
         <location filename="../src/wallet/api/address_book.cpp" line="53"/>
         <source>Invalid destination address</source>
@@ -25,7 +25,7 @@
     </message>
 </context>
 <context>
-    <name>Monero::PendingTransactionImpl</name>
+    <name>Incognito::PendingTransactionImpl</name>
     <message>
         <location filename="../src/wallet/api/pending_transaction.cpp" line="91"/>
         <source>Attempting to save transaction to file, but specified file(s) exist. Exiting to not risk overwriting. File:</source>
@@ -78,7 +78,7 @@
     </message>
 </context>
 <context>
-    <name>Monero::UnsignedTransactionImpl</name>
+    <name>Incognito::UnsignedTransactionImpl</name>
     <message>
         <location filename="../src/wallet/api/unsigned_transaction.cpp" line="75"/>
         <source>This is a watch only wallet</source>
@@ -132,7 +132,7 @@
     </message>
 </context>
 <context>
-    <name>Monero::WalletImpl</name>
+    <name>Incognito::WalletImpl</name>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1354"/>
         <source>payment id has invalid format, expected 16 or 64 character hex string: </source>
@@ -2886,12 +2886,12 @@ Attention&#xa0;: Certaines clés d&apos;entrées étant dépensées sont issues 
  auto-low-priority &lt;1|0&gt;
    Whether to automatically use the low priority fee level when it&apos;s safe to do so.
  segregate-pre-fork-outputs &lt;1|0&gt;
-   Set this if you intend to spend outputs on both Monero AND a key reusing fork.
+   Set this if you intend to spend outputs on both Incognito AND a key reusing fork.
  key-reuse-mitigation2 &lt;1|0&gt;
-   Set this if you are not sure whether you will spend on a key reusing Monero fork later.
+   Set this if you are not sure whether you will spend on a key reusing Incognito fork later.
 subaddress-lookahead &lt;major&gt;:&lt;minor&gt;
    Set the lookahead sizes for the subaddress hash table.
-   Set this if you are not sure whether you will spend on a key reusing Monero fork later.
+   Set this if you are not sure whether you will spend on a key reusing Incognito fork later.
  segregation-height &lt;n&gt;
    Set to the height of a key reusing fork you want to use, 0 to use default.</source>
         <translation>Options disponibles :
@@ -2930,7 +2930,7 @@ subaddress-lookahead &lt;major&gt;:&lt;minor&gt;
  auto-low-priority &lt;1|0&gt;
    Utilisation automatique du niveau de frais pour la priorité basse, lorsqu&apos;il est sûr de le faire.
  segregate-pre-fork-outputs &lt;1|0&gt;
-   Activez ceci si vous prévoyez de dépenser des sorties à la fois avec Monero ET un fork réutilisant les clés.
+   Activez ceci si vous prévoyez de dépenser des sorties à la fois avec Incognito ET un fork réutilisant les clés.
  key-reuse-mitigation2 &lt;1|0&gt;
    Activez ceci si vous n&apos;êtes pas sûr de ne jamais utiliser un fork réutilisant les clés.
  subaddress-lookahead &lt;majeur&gt;:&lt;mineur&gt;
@@ -4511,8 +4511,8 @@ Sorties par *&#xa0;: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="333"/>
-        <source> Monero Address = </source>
-        <translation> Adresse Monero = </translation>
+        <source> Incognito Address = </source>
+        <translation> Adresse Incognito = </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="335"/>
@@ -4674,10 +4674,10 @@ Sorties par *&#xa0;: </translation>
         <location filename="../src/simplewallet/simplewallet.cpp" line="8074"/>
         <source>This is the command line incognito wallet. It needs to connect to a incognito
 daemon to work correctly.
-WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+WARNING: Do not reuse your Incognito keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
         <translation>Ceci est le portefeuille incognito en ligne de commande.
 Il a besoin de se connecter à un démon incognito pour fonctionner correctement.
-ATTENTION : Ne réutilisez pas vos clés Monero avec un autre fork, À MOINS QUE ce fork inclue des mitigations contre la réutilisation des clés. Faire ceci nuira à votre confidentialité.</translation>
+ATTENTION : Ne réutilisez pas vos clés Incognito avec un autre fork, À MOINS QUE ce fork inclue des mitigations contre la réutilisation des clés. Faire ceci nuira à votre confidentialité.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="8099"/>

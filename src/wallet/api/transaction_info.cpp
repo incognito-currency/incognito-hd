@@ -33,7 +33,7 @@
 
 using namespace std;
 
-namespace Monero {
+namespace Incognito {
 
 TransactionInfo::~TransactionInfo() {}
 
@@ -140,4 +140,4 @@ uint64_t TransactionInfoImpl::unlockTime() const
 
 } // namespace
 
-namespace Bitincognito = Monero;
+namespace Bitincognito = Incognito;

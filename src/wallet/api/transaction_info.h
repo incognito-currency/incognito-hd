@@ -32,7 +32,7 @@
 #include <string>
 #include <ctime>
 
-namespace Monero {
+namespace Incognito {
 
 class TransactionHistoryImpl;
 
@@ -84,4 +84,4 @@ private:
 
 } // namespace
 
-namespace Bitincognito = Monero;
+namespace Bitincognito = Incognito;

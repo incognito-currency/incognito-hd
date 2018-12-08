@@ -56,7 +56,7 @@ using namespace cryptonote;
 #undef MONERO_DEFAULT_LOG_CATEGORY
 #define MONERO_DEFAULT_LOG_CATEGORY "WalletAPI"
 
-namespace Monero {
+namespace Incognito {
 
 namespace {
     // copy-pasted from simplewallet
@@ -2298,4 +2298,4 @@ bool WalletImpl::isKeysFileLocked()
 }
 } // namespace
 
-namespace Bitincognito = Monero;
+namespace Bitincognito = Incognito;
