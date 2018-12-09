@@ -161,6 +161,7 @@ namespace cryptonote
 
   bool checkpoints::init_default_checkpoints(network_type nettype)
   {
+    /*
     if (nettype == TESTNET)
     {
       ADD_CHECKPOINT(0,     "48ca7cd3c8de5b6a4d53d2861fbdaedca141553559f9be9520068053cda8430b");
@@ -210,6 +211,7 @@ namespace cryptonote
     ADD_CHECKPOINT(1530000, "01759bce497ec38e63c78b1038892169203bb78f87e488172f6b854fcd63ba7e");
     ADD_CHECKPOINT(1579000, "7d0d7a2346373afd41ed1e744a939fc5d474a7dbaa257be5c6fff4009e789241");
     ADD_CHECKPOINT(1668900, "ac2dcaf3d2f58ffcf8391639f0f1ebafcb8eac43c49479c7c37f611868d07568");
+    */
     return true;
   }
 

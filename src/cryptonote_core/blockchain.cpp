@@ -126,8 +126,8 @@ static const struct {
   time_t time;
 } testnet_hard_forks[] = {
   // version 1 from the start of the blockchain
-  { 1, 1, 0, 1341378000 },
-
+  { 1, 0, 0, 1341378000 },
+  /*
   // version 2 starts from block 624634, which is on or around the 23rd of November, 2015. Fork time finalised on 2015-11-20. No fork voting occurs for the v2 fork.
   { 2, 624634, 0, 1445355000 },
 
@@ -140,6 +140,13 @@ static const struct {
   { 7, 1057027, 0, 1512211236 },
   { 8, 1057058, 0, 1533211200 },
   { 9, 1057778, 0, 1533297600 },
+  */
+  // by hms - must be modified before start
+  // INCOGNITO: start hardfork v7 from 1st block
+  { 7, 1, 0, 1517045120 },
+  { 8, 69900, 0, 1527674400 },
+  { 9, 70707, 0, 1527735600 },
+  { 10, 106000, 0, 1528934400 },
 };
 static const uint64_t testnet_hard_fork_version_1_till = 624633;
 
